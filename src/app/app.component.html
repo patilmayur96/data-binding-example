@@ -1,0 +1,20 @@
+<div>
+  <h1>Interpolation and Template Expressions</h1>
+  <hr />
+
+  <div>
+    <!----interpolation -->
+    <h2>Interpolation</h2>
+    <h3>Current customer: {{ currentCustomer }}</h3>
+
+    <!--property binding-->
+    <input type="text" [value]="dyName"><br><br>
+    <input type="text"[(ngModel)]="uname"/>
+    <input [value]="uname" (input)="uname.$event.tareget.uname"/>
+    <P>{{uname}}</P>
+
+    <!-- Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license -->
+  </div>
+</div>
